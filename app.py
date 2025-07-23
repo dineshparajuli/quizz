@@ -23,7 +23,7 @@ def home():
         ]
         correct_index = int(row["CorrectAnswer"]) - 1
         question = {
-            "text": row["Question"],
+            "text": row["question"],
             "options": options,
             "answer": options[correct_index]
         }
